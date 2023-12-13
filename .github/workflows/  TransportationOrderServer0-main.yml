@@ -39,7 +39,7 @@ jobs:
         with:
 
           registry: ghcr.io
-          username: "mmerolli1"
+          username: mmerolli1
           password: ${{ secrets.PAT }}
 
     -
