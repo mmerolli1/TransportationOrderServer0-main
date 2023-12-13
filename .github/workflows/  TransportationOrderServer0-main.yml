@@ -23,7 +23,7 @@ verify-and-package:
 
    needs: build
    runs-on: ubuntu-latest
-    steps:
+   steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 14
       uses: actions/setup-java@v3
