@@ -19,7 +19,7 @@ jobs:
     - name: Build project with Maven
       run: mvn -B compile --file pom.xml
  
-verify-and-package:
+package:
 
    needs: build
    runs-on: ubuntu-latest
